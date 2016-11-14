@@ -98,7 +98,7 @@ class fcfs
 		minus the arrival time of the process 
 		*/
 		
-		fcfs[0][4] = fcfs[0][2];//turn around time of the first process is its burst time
+		fcfs[0][4] = fcfs[0][2]; //turn around time of the first process is its burst time
 		
 		for(int i = 1;i < n;i++)
 		{	
